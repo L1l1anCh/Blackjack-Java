@@ -9,9 +9,10 @@ A fully-featured, Object-Oriented Blackjack (21) casino game played directly in 
 
 * **Multiplayer Support:** Play with multiple friends at the same table.
 * **Budget Management:** Players start with a set amount of money and place bets each round. Watch your wallet grow (or shrink)!
-* **Advanced Mechanics:** * **Double Down:** Double your initial bet in exchange for committing to stand after receiving exactly one more card.
+* **Advanced Mechanics:**
+  * **Double Down:** Double your initial bet in exchange for committing to stand after receiving exactly one more card.
   * **Split:** If dealt a pair, split them into two separate hands and play them independently.
-* **Authentic Dealer AI:** The dealer follows standard casino rules, hitting until they reach 17.
+* **Authentic Dealer:** The dealer follows standard casino rules, hitting until they reach 17.
 * **Continuous Play:** The deck is automatically managed and shuffled when cards run low. Play round after round until you decide to cash out or go broke!
 * **Input Protection:** Error handling ensures the game won't crash if a player types the wrong command.
 
@@ -49,16 +50,25 @@ In order to run the program, you will need to compile all the java files and the
 ### How to Play
 1. When prompted, enter the number of players.
 2. Enter the Name and Starting Budget for each player.
+
 ![Gameplay Screenshot: The Initial input for the player](assets/Initial_input.png)
+
 3. At the start of a round, each player places their bet.
+
 ![Gameplay Screenshot: First Round of the Game](assets/Round_One.png)
+
 4. The dealer will distribute two cards to everyone (one of the dealer's cards remains hidden).
 5. On your turn, you will be prompted to make decisions:
 - **Hit (Yes/No):** Draw another card to get closer to 21.
 - **Double (Yes/No):** If you have the funds, double your bet and draw exactly one more card.
 - **Split (Yes/No):** If you have a pair and the funds, split your hand into two.
+
 ![Gameplay Screenshot: The Player has won!](assets/Player_Wins.png)
+
 6. Get closer to 21 than the dealer without going over (Busting) to win your bet!
+
 ![Gameplay Screenshot: The Dealer has won!](assets/Player_Lost.png)
+
 7. Choose whether to continue to a new round or end the game.
+
 ![Gameplay Screenshot: The User has decided to cash out](assets/Round_Over.png)
