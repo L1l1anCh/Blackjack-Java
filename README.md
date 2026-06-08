@@ -1,19 +1,19 @@
 # Java Terminal Blackjack 
 
 
-A fully-featured, Object-Oriented Blackjack (21) casino game played directly in your terminal. This project simulates a real casino table environment, complete with bankroll management, authentic dealer rules, and advanced player mechanics like splitting and doubling down.
+A fully-featured, Object-Oriented Blackjack (21) casino game played directly in your terminal. This project simulates a real casino table environment, complete with budget management, authentic dealer rules, and advanced player mechanics like splitting and doubling down.
 
 ---
 
 ## Features
 
 * **Multiplayer Support:** Play with multiple friends at the same table.
-* **Bankroll Management:** Players start with a set amount of money and place bets each round. Watch your wallet grow (or shrink)!
+* **Budget Management:** Players start with a set amount of money and place bets each round. Watch your wallet grow (or shrink)!
 * **Advanced Mechanics:** * **Double Down:** Double your initial bet in exchange for committing to stand after receiving exactly one more card.
   * **Split:** If dealt a pair, split them into two separate hands and play them independently.
 * **Authentic Dealer AI:** The dealer follows standard casino rules, hitting until they reach 17.
-* **Continuous Play:** The shoe (deck) is automatically managed and shuffled when cards run low. Play round after round until you decide to cash out—or go broke!
-* **Input Protection:** Robust error handling ensures the game won't crash if a player types the wrong command.
+* **Continuous Play:** The deck is automatically managed and shuffled when cards run low. Play round after round until you decide to cash out or go broke!
+* **Input Protection:** Error handling ensures the game won't crash if a player types the wrong command.
 
 ---
 
